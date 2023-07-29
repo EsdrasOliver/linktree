@@ -12,11 +12,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     background: var(--bg-color);
-    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 body.dark {
@@ -66,13 +70,13 @@ body.dark {
 }
 
 .container { 
-    width: 600px;
-    margin: 60px auto;
+    width: 400px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 #perfil {
